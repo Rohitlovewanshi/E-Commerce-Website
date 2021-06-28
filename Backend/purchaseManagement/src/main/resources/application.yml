@@ -1,0 +1,28 @@
+server:
+  port: 8899
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 13.58.220.227:9092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+  application:
+    name: PRODUCT-PURCHASE-SERVICE
+  datasource:
+    url : jdbc:mysql://18.224.59.187:3306/UserProductDB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username : root
+    password : root
+  jpa: 
+    hibernate.ddl-auto: update
+    show-sql: true
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true   
+    service-url:
+      defaultZone: http://18.224.59.187:8761/eureka/ 
+  instance:
+    hostname: localhost

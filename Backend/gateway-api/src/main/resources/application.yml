@@ -1,0 +1,33 @@
+server:
+  port: 9900
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: PRODUCT-FETCH-SERIVCE
+        uri: lb://PRODUCT-FETCH-SERIVCE
+        predicates:
+          - Path=/products/**      
+      - id: MYACCOUNT-SERVICE
+        uri: lb://MYACCOUNT-SERVICE
+        predicates:
+          - Path=/user/**
+      - id: PRODUCT-PURCHASE-SERVICE
+        uri: lb://PRODUCT-PURCHASE-SERVICE
+        predicates:
+          - Path=/admin/**,/purchase/** 
+      - id: TRANSACTION-MANAGEMENT
+        uri: lb://TRANSACTION-MANAGEMENT  
+        predicates:
+          - Path=/transaction/**  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://18.224.59.187:8761/eureka
+  instance:
+    hostname: 13.232.9.165

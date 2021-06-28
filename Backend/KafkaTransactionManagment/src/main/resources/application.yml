@@ -1,0 +1,32 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: TRANSACTION-MANAGEMENT
+  datasource:
+    url: jdbc:mysql://18.224.59.187:3306/TransactionDB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  kafka:
+    consumer:
+      bootstrap-servers: 18.117.177.185:9092
+      group-id: group-id
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://18.224.59.187:8761/eureka/
+  instance:
+    hostname: 3.132.214.105
+
+      

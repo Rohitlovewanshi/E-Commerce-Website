@@ -1,0 +1,225 @@
+.Login {
+  background-color: rgba(250, 249, 250, 1);
+}
+
+.Logincard {
+  text-align: center;
+}
+.Login .Fo .us {
+  text-align: center;
+  transition: width 0.3s;
+  border: rebeccapurple;
+  block-size: 40px;
+    text-align: center ;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(250, 249, 250, 1);
+      border-bottom-style: solid;
+      border-bottom-width: 2.00px;
+      border-left-style: solid;
+      border-left-width: 2.00px;
+      border-right-style: solid;
+      border-right-width: 2.00px;
+      border-top-style: solid;
+      border-top-width: 2.00px;
+      border-top-left-radius: 45.00px;
+      border-top-right-radius: 45.00px;
+      border-bottom-left-radius: 45.00px;
+      border-bottom-right-radius: 45.00px;
+      -webkit-filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+    filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+      width: 219.00px;
+    /* height: 39.00px;
+    left: 639.00px;
+    top: 342.00px; */
+}
+.Login .Fo .us:hover {
+  width : 232px;
+}
+.Login .Fo .pa:hover {
+  width : 232px;
+}
+.Login .Fo .pa {
+  transition: width 0.3s;
+  border: rebeccapurple;
+  block-size: 40px;
+  text-align: center ;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(250, 249, 250, 1);
+  border-bottom-style: solid;
+  border-bottom-width: 2.00px;
+  border-left-style: solid;
+  border-left-width: 2.00px;
+  border-right-style: solid;
+  border-right-width: 2.00px;
+  border-top-style: solid;
+  border-top-width: 2.00px;
+  border-top-left-radius: 45.00px;
+  border-top-right-radius: 45.00px;
+  border-bottom-left-radius: 45.00px;
+  border-bottom-right-radius: 45.00px;
+  -webkit-filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+filter: drop-shadow(5px 4px 5px rgba(97, 121, 199, 1));
+  width: 219.00px;
+/* height: 39.00px;
+left: 639.00px;
+top: 342.00px; */
+}
+
+.Login .Fo .bu {
+  transition: ease 0.3s;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+-webkit-transform: rotate(0.00deg);
+transform: rotate(0.00deg);
+-ms-transform-origin: center;
+-webkit-transform-origin: center;
+transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(250, 249, 250, 1);
+  border-bottom-color: rgba(8, 0, 211, 0.8901960784313725);
+  border-bottom-style: none;
+  border-bottom-width: 2.00px;
+  border-left-color: rgba(8, 0, 211, 0.8901960784313725);
+  border-left-style: none;
+  border-left-width: 2.00px;
+  border-right-color: rgba(8, 0, 211, 0.8901960784313725);
+  border-right-style: none;
+  border-right-width: 2.00px;
+  border-top-color: rgba(8, 0, 211, 0.8901960784313725);
+  border-top-style: none;
+  border-top-width: 2.00px;
+  border-top-left-radius: 26.00px;
+  border-top-right-radius: 26.00px;
+  border-bottom-left-radius: 26.00px;
+  border-bottom-right-radius: 26.00px;
+  -webkit-filter: drop-shadow(-2px -2px 5px rgba(0, 0, 0, 1));
+filter: drop-shadow(-2px -2px 5px rgba(0, 0, 0, 1));
+  width: 95.00px;
+height: 40.00px;
+left: 723.00px;
+top: 510.00px;
+}
+
+.Login .Fo .bu:hover {
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: pointer;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(0, 0, 0, 0.692);
+      border-bottom-color: rgba(255, 247, 0, 1);
+      border-bottom-style: none;
+      border-bottom-width: 3.00px;
+      border-left-color: rgba(255, 247, 0, 1);
+      border-left-style: none;
+      border-left-width: 3.00px;
+      border-right-color: rgba(255, 247, 0, 1);
+      border-right-style: none;
+      border-right-width: 3.00px;
+      border-top-color: rgba(255, 247, 0, 1);
+      border-top-style: none;
+      border-top-width: 3.00px;
+      border-top-left-radius: 26.00px;
+      border-top-right-radius: 26.00px;
+      border-bottom-left-radius: 26.00px;
+      border-bottom-right-radius: 26.00px;
+      -webkit-filter: drop-shadow(5px 5px 8px rgba(255, 247, 0, 1));
+    filter: drop-shadow(5px 5px 8px rgba(255, 247, 0, 1));
+      -webkit-filter: blur(0px);
+  filter: blur(0px);
+  width: 95.00px;
+height: 40.00px;
+left: 723.00px;
+top: 510.00px;
+}
+
+.Login .Fo .bu[value = 'Login']:hover{
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: pointer;
+      background-color: rgb(68, 7, 68);
+      text-align: center;
+      letter-spacing: 1.24px;
+      color: rgb(255, 255, 255);
+      -webkit-text-stroke: 1.00px rgba(17, 51, 31, 0);
+      font-size: 15.00px;
+      font-weight: 200;
+    font-style: normal;
+      font-family: Tahoma, Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 95.00px;
+      height: 40.00px;
+      left: 723.00px;
+      top: 510.00px;
+} 
+
+.Login .Fo .bu[value = 'Login']{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+

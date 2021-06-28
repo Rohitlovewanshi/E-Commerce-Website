@@ -1,0 +1,24 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: PRODUCT-FETCH-SERIVCE
+  datasource:
+    url: jdbc:mysql://18.224.59.187:3306/UserProductDB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true 
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://18.224.59.187:8761/eureka
+  instance:
+    hostname: 3.17.13.203
+
+  

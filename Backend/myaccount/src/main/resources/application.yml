@@ -1,0 +1,31 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: MYACCOUNT-SERVICE
+  datasource:
+    url: jdbc:mysql://18.224.59.187:3306/UserProductDB #Aws database
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username : root
+    password : root
+  jpa: 
+    hibernate.ddl-auto: update
+    show-sql: true
+  kafka:
+    producer:
+      bootstrap-servers: 18.117.144.180:9092 #Kafkaserver
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer    
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://18.224.59.187:8761/eureka/ #Eureka server
+  instance:
+    hostname: 18.218.180.129
+        
+
+
